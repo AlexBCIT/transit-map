@@ -12,8 +12,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={styles.header}>
-          Vancouver Skytrain Expo Line
+          Vancouver Skytrain Stations
       </header>
+
+      <subheader className={styles.subheader}>
+          A web app that shows skytrain stops along the expo line.
+      </subheader>
 
       <main className={styles.main}>
         <Map/>

@@ -131,11 +131,24 @@
 .map {
   width: 100%;
   height: 40rem;
+  border-radius: 1%;
 }
 
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5rem;
   flex-grow: 1;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.subheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 1.5rem;
+  font-weight: 200;
 }
